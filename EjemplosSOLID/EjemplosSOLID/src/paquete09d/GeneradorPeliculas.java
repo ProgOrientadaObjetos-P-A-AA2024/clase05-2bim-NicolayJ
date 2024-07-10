@@ -19,7 +19,8 @@ public class GeneradorPeliculas {
     }
 
     public void establecerUrl(String l) {
-        url = String.format("%s%s", l, obtenerLlave().obtenerApiKey());
+        url = String.format("%s%s", 
+                l, obtenerLlave().obtenerApiKey());
     }
 
     public APINetflix obtenerLlave() {
