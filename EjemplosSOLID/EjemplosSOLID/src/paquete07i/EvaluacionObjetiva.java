@@ -30,19 +30,23 @@ public class EvaluacionObjetiva extends Evaluacion {
         return totalPreguntas;
     }
 
+    @Override
     public void establecerPromedioObjetivas() {
         promedioObjetivas = obtenerTotalPreguntas() / obtenerNumeroPreguntas();
     }
 
+    @Override
     public double obtenerPromedioObjetivas() {
         return promedioObjetivas;
     }
 
+    @Override
     public void establecerPromedioEnsayo() {
         throw new RuntimeException("Sin implementar establecerPromedioEnsayo");
 
     }
 
+    @Override
     public double obtenerPromedioEnsayo() {
         throw new RuntimeException("Sin implementar obtenerPromedioEnsayo");
 

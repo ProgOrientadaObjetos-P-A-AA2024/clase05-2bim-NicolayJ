@@ -9,6 +9,8 @@ package paquete08i;
  *
  * @author reroes
  */
+
+
 public interface EvaluacionTipoUno {
     
     public void establecerPromedioObjetivas();

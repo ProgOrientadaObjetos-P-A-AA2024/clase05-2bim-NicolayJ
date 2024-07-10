@@ -32,7 +32,12 @@ public class EvaluacionEnsayo implements EvaluacionTipoDos {
         return totalProblemas;
     }
     
-    
+    /*
+    Los siguientes metodos son metodos que hacen uso de interfaces de Evaluacion
+    Tipo Dos para ello alado del nombre de la clase se coloca implements que 
+    indica el uso de una interfaz y es necesario usar obligatoriamente todos los
+    metodos de la interfaz
+    */
     @Override
     public void establecerPromedioEnsayo() {
 
