@@ -8,10 +8,12 @@ public class TarjetaCredito {
     
     private String nombre;
     private String numero;
+    private Banco banco;
     
-    public TarjetaCredito(String nom, String num){
+    public TarjetaCredito(String nom, String num, Banco ban){
         nombre = nom;
         numero = num;
+        banco = ban;
     }
     
     public void establecerNombre(String nom){
@@ -21,6 +23,10 @@ public class TarjetaCredito {
     public void establecerNumero(String num){
         numero = num;
     }
+    
+    public void establecerBanco(Banco b){
+        banco = b;
+    }
 
     public String obtenerNombre(){
         return nombre;
@@ -28,5 +34,9 @@ public class TarjetaCredito {
 
     public String obtenerNumero(){
         return numero;
+    }
+    
+    public Banco obtenerBanco(){
+        return banco;
     }
 }
