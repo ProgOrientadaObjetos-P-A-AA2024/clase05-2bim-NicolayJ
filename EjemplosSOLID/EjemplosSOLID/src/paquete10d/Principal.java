@@ -7,6 +7,7 @@ package paquete10d;
 public class Principal {
     public static void main(String[] args) {
         
+        System.out.println("DGO");
         APIDGo apiG = new APIDGo();
         apiG.establecerApiKey("180420");
         
@@ -17,6 +18,7 @@ public class Principal {
         
         System.out.println("---------------------------");
         
+        System.out.println("DISNEY");
         APIDisneyPlus apiD = new APIDisneyPlus();
         apiD.establecerApiKey("11045");
         
@@ -27,6 +29,7 @@ public class Principal {
         
         System.out.println("---------------------------");
         
+        System.out.println("NETFLIX");
         APINetflix api = new APINetflix();
         api.establecerApiKey("123455");
         
@@ -37,6 +40,7 @@ public class Principal {
         
         System.out.println("---------------------------");
         
+        System.out.println("AMAZON");
         APIAmazonMovie api2 = new APIAmazonMovie();
         api2.establecerApiKey("123455");
         
